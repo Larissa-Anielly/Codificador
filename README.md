@@ -8,9 +8,9 @@ https://larissa-anielly.github.io/Codificador/
 Desafio ONE: Iniciante em programação | Parceria de Alura + Oracle
 
 ## Layout web
-![Desktop](./ASSETS/IMG_README/codificador_desktop.png.png)
+![Desktop](./ASSETS/IMG_README/codificador_desktop.png)
 
-![Tablet](./ASSETS/IMG_README/codificador_tablet.png.png)
+![Tablet](./ASSETS/IMG_README/codificador_tablet.png)
 
 ![Smartphone](./ASSETS/IMG_README/codificador_smartphone.png)
 
