@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-https://larissa-anielly.github.io/Codificador/
+https://larissa-anielly.github.io/Decodificador/
 
 Desafio ONE: Iniciante em programação | Parceria de Alura + Oracle
 
