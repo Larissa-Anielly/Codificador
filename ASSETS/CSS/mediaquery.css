@@ -1,0 +1,74 @@
+@charset "utf -8";
+
+@media (min-width:840px) and (max-width:950px) {
+    main {
+        justify-content: flex-start;
+        margin: 20px;
+    }
+
+    aside {
+        right: 2%;
+    }
+}
+
+@media (min-width:0px) and (max-width:840px) {
+    main {
+        height: 85%;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section {
+        margin: 0;
+        height: 60%;
+        width: 80%;
+    }
+
+    section form {
+        height: 60%;
+    }
+
+    section label {
+        width: 100%;
+    }
+
+    section textarea {
+        height: 12em;
+        width: 100%;
+    }
+
+    .botoes {
+        margin: auto;
+        width: 80%;
+    }
+
+    .botao01 , .botao02 {
+        margin: 0px 5px;
+    }
+
+    form div:first-of-type {
+        width: 100%;
+    }
+
+    aside {
+        position: relative;
+        width: 80%;
+        margin-top: 20px;
+        padding-bottom: 10px;
+        right: 0;
+        top: 0;
+    }
+
+    #emptySpace img{
+        display: none;
+    }
+
+    #emptySpace p:first-of-type {
+        line-height: 0;
+        font-size: 16px;
+    }
+    #emptySpace p:last-of-type {
+        font-size: 12px;
+    }
+}

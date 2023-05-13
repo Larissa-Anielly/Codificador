@@ -1,0 +1,180 @@
+@charset "utf -8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+:root {
+
+    --primaria: #6A1B9A;
+    --secundaria: #1A237E;
+    --terciaria: #039be5;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background-image: radial-gradient(ellipse at top, var(--primaria)0%, var(--secundaria)100%);
+    height: 93.7vh;
+    font-family: 'Inter', sans-serif;
+    color: #F6F6F6;
+}
+
+header {
+    margin: 3% 5%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 74%;
+}
+
+section {
+    width: 500px;
+    height: 102%;
+    margin-right: 400px;
+
+}
+
+section form {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section textarea {
+    background-color: transparent;
+    border: none;
+    color: white;
+    width: 24em;
+    height: 20em;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    resize: none;
+}
+
+section textarea::placeholder {
+    color: #F2F2F2;
+}
+
+section textarea:focus {
+    outline: 0;
+}
+
+form div p {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+form div p i {
+    background-color: white;
+    border-radius: 100px;
+    color: var(--primaria);
+    font-weight: 700;
+    padding: 0px 5px;
+    margin-right: 5px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    width: 41em;
+}
+
+.botao01 {
+    background: none;
+    border: solid 1px #F6F6F6;
+    border-radius: 10px;
+    width: 20rem;
+    height: 40px;
+    color: #F6F6F6;
+    font-size: 12px;
+    transition: 0.3s;
+
+}
+
+.botao02 {
+    background: var(--terciaria);
+    border: none;
+    border-radius: 10px;
+    width: 20rem;
+    height: 40px;
+    color: #F6F6F6;
+    font-size: 12px;
+    transition: 0.3s;
+}
+
+.botao01:hover,
+.botao02:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+aside {
+    background-image: linear-gradient(140deg, var(--terciaria), var(--secundaria));
+    position: absolute;
+    top: 6%;
+    right: 10%;
+    width: 240px;
+    height: 80%;
+    padding: 30px 30px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 4px #00000050;
+}
+
+/* ------------------------------------ */
+#emptySpace {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+#emptySpace img {
+    width: 80%;
+}
+
+#emptySpace p:first-of-type {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    text-align: center;
+    margin: 5% 0;
+}
+
+#emptySpace p:last-of-type {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+}
+
+/* ----------------------------------- */
+#textoDecodificado {
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+#textoDecodificado p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    text-align: justify;
+}
+
+/* ------------------------------------ */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+}

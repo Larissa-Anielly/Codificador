@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="ASSETS/CSS/reset.css">
+    <link rel="stylesheet" href="ASSETS/CSS/style.css">
+    <link rel="stylesheet" href="ASSETS/CSS/mediaquery.css">
+    <link rel="shortcut icon" href="ASSETS/IMG/aluraIcon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+
+    <header>
+
+        <img src="./ASSETS/IMG/Vector.svg" alt="Logo da Alura" width="30px">
+
+    </header>
+
+    <main>
+
+        <section>
+
+            <form action="codificador" method="post" id="formulario">
+
+                <label for="codigo">
+
+                    <textarea name="codigo" id="idcodigo" placeholder="Digite seu texto"></textarea>
+
+                </label>
+
+                <div>
+
+                    <p><i>&excl;</i>Apenas letras minúsculas e sem acento</p>
+
+                    <div class="botoes">
+                        <input type="button" value="criptografia" id="criptografar" class="botao02">
+                        
+                        <input type="button" value="descriptografia" id="descriptografar" class="botao01">
+                    </div>
+
+                </div>
+            </form>
+
+        </section>
+
+        <aside>
+
+            <div id="emptySpace">
+
+                <img src="ASSETS/IMG/High quality products 1 1.svg"
+                    alt="A imagem apresenta uma pessoa ajoelhada com uma lupa em mãos viendo um diamante">
+
+                <p>Nenhuma mensagem encontrada</p>
+
+                <p>Digite um texto que você deseja criptografar ou descriptografar.
+                </p>
+
+            </div>
+
+            <div id="textoDecodificado">
+
+                <p id="codigodecodificado">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, in. Debitis necessitatibus obcaecati tempore dolorum reiciendis omnis perferendis facere. Id consectetur omnis modi dolor aperiam iusto ab sed voluptate? Vero.</p>
+
+                <input type="button" value="Copiar"
+                class="botao01" id="copiar">
+
+            </div>
+
+        </aside>
+    </main>
+
+    <footer>
+        <p>Created by <em>Larissa Anielly</em></p>
+    </footer>
+
+    <script type="text/javascript" src="ASSETS/JS/decodificador.js"></script>
+
+</body>
+
+</html>
